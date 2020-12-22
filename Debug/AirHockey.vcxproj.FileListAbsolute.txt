@@ -1,0 +1,2 @@
+C:\Users\Potato\source\repos\AirHockey\Debug\AirHockey.exe
+C:\Users\Potato\source\repos\AirHockey\Debug\AirHockey.pdb

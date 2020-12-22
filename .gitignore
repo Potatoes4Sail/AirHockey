@@ -1,0 +1,17 @@
+#CLion files
+/cmake-build-debug/
+/.idea/
+
+#Ignore build files.
+/2Cars2Racing.pdb
+/2Cars2Racing.ilk
+/2Cars2Racing.exe
+/2Cars2RacingHost.exe
+/2Cars2RacingHost.ilk
+/2Cars2RacingHost.pdb
+
+#Audio files
+/raw files/audio/
+
+#VS files
+/.vs/

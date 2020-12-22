@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2572e9b6-1c1f-496d-a0bd-c02635874aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D Graphics">
+      <UniqueIdentifier>{6ebba0ed-4827-4fdd-9a6f-0932faf27d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D Graphics">
+      <UniqueIdentifier>{d8ccd502-1ad5-4200-948e-7929179adeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{30927fd6-0225-4513-b0fc-7ba3b1f1210b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Playing Pieces">
+      <UniqueIdentifier>{1f3f6bc8-6b36-4121-9ee9-8ede3fd371d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{27ccf04c-631d-4df9-b95f-3998c6acd4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Playing Pieces">
+      <UniqueIdentifier>{ed965ff8-c1ff-4088-b06e-09691369aeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Engine">
+      <UniqueIdentifier>{1b4298ff-749d-4003-a39b-2a6fb0fa4741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Engine\Graphics">
+      <UniqueIdentifier>{0dddbc68-7bd1-4599-8e4c-df8e2653738b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Engine\Math">
+      <UniqueIdentifier>{55ff26a7-6733-4cb7-98ec-a5ce2d1caf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Engine\Physics">
+      <UniqueIdentifier>{184ffa53-7e12-4632-a5c9-1a62f4e26c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Engine">
+      <UniqueIdentifier>{99ebbbba-fbc4-4e19-a9e0-e641e6bca52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Engine\Graphics">
+      <UniqueIdentifier>{5b5001d3-e720-4c8d-97a4-8f2d009557da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Engine\Math">
+      <UniqueIdentifier>{a99e52ee-2c33-4c65-9f6f-8d2af2e74d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Engine\Physics">
+      <UniqueIdentifier>{a3165043-9def-4e44-8f92-a8d7053f5fed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2D_graphics\game_pad.h">
+      <Filter>Header Files\2D Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_graphics\2D_graphics.h">
+      <Filter>Header Files\2D Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_graphics\timer.h">
+      <Filter>Header Files\2D Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_graphics\UDP_com.h">
+      <Filter>Header Files\2D Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="2D_graphics\UDP_com6.h">
+      <Filter>Header Files\2D Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="gameInfo.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNetworking.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle.h">
+      <Filter>Header Files\Game\Playing Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>Header Files\Game\Playing Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="puck.h">
+      <Filter>Header Files\Game\Playing Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="physicalObject.h">
+      <Filter>Header Files\Game Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsHelper.h">
+      <Filter>Header Files\Game Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ran.h">
+      <Filter>Header Files\Game Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Game Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="customMath.h">
+      <Filter>Header Files\Game Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_text.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shapeDrawing.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files\Game Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryIO.h">
+      <Filter>Header Files\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="charFunctions.h">
+      <Filter>Header Files\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\Game Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="2D_graphics\2D_graphics_ver1.lib">
+      <Filter>Source Files\2D Graphics</Filter>
+    </Library>
+    <Library Include="2D_graphics\game_pad.lib">
+      <Filter>Source Files\2D Graphics</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2D_graphics\timer.cpp">
+      <Filter>Source Files\2D Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="2D_graphics\UDP_com.cpp">
+      <Filter>Source Files\2D Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="2D_graphics\UDP_com6.cpp">
+      <Filter>Source Files\2D Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="paddle.cpp">
+      <Filter>Source Files\Game\Playing Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="puck.cpp">
+      <Filter>Source Files\Game\Playing Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>Source Files\Game\Playing Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNetworking.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="shapes.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AirHockey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_text.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ran.cpp">
+      <Filter>Source Files\Game Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsHelper.cpp">
+      <Filter>Source Files\Game Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="charFunctions.cpp">
+      <Filter>Source Files\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeDrawing.cpp">
+      <Filter>Source Files\Game Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryIO.cpp">
+      <Filter>Source Files\Game Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scoreboard.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
